@@ -1,0 +1,11 @@
+name: test
+on: [push,pull_request]
+jobs:
+ test:
+  runs-on: ubuntu-latest
+  steps:
+   - uses: actions/checkout@v4
+   - uses: actions/setup-python@v5
+     with: {python-version: '3.11'}
+   - run: pip install 'pandas>=2.2' 'numpy>=2.0' 'pytest>=8'
+   - run: pytest -q tests_test_indicators.py

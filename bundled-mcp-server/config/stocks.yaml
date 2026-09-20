@@ -1,0 +1,13 @@
+sectors:
+  CPO:
+    A股: ["300308","300502","300394"]
+    美股: ["LITE","COHR","ANET"]
+  PCB:
+    A股: ["002916","002463","600183"]
+    美股: ["ANET","AVGO"]
+  STORAGE:
+    A股: ["603986","301308","001309"]
+    美股: ["MU","WDC","STX"]
+  SEMI_EQUIPMENT:
+    A股: ["688012","688072"]
+us_watchlist: ["LITE","COHR","ANET","MU","WDC","STX","SOXX","NVDA","AVGO"]

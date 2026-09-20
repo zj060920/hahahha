@@ -1,0 +1,17 @@
+目标仓库：https://github.com/zj060920/hahahha
+
+Windows：
+1. 解压 ZIP。
+2. 进入解压目录。
+3. 安装 Git + GitHub CLI。
+4. gh auth login
+5. .\push_to_github.ps1
+
+macOS/Linux：
+1. 解压 ZIP。
+2. cd 到目录。
+3. gh auth login
+4. chmod +x push_to_github.sh
+5. ./push_to_github.sh
+
+网页上传：先解压 ZIP，再把全部内容上传到仓库根目录。

@@ -1,0 +1,12 @@
+{
+  "name":"ai-hardware-market-monitor",
+  "version":"1.0.0",
+  "description":"A股+美股 AI硬件多周期行情、MACD、RSI、成交量、板块联动与研究分析 MCP 插件。",
+  "author":{"name":"zj060920","url":"https://github.com/zj060920"},
+  "repository":"https://github.com/zj060920/hahahha",
+  "homepage":"https://github.com/zj060920/hahahha",
+  "license":"MIT",
+  "skills":"./skills/",
+  "mcpServers":"./.mcp.json",
+  "interface":{"displayName":"AI Hardware Market Monitor","shortDescription":"A股+美股 AI硬件多周期行情与技术监控","developerName":"zj060920","category":"Finance","capabilities":["Interactive","Read"],"websiteURL":"https://github.com/zj060920/hahahha"}
+}

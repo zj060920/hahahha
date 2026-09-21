@@ -2,7 +2,7 @@
   "mcpServers": {
     "ai-hardware-market-monitor": {
       "command":"uv",
-      "args":["run","--directory","./bundled-mcp-server","--with","mcp>=1.13.0","--with","pandas>=2.2.0","--with","numpy>=2.0.0","--with","requests>=2.32.0","--with","yfinance>=0.2.54","--with","pyyaml>=6.0.0","server.py"]
+      "args":["run","--directory","./bundled-mcp-server","--with","mcp>=1.13.0,<2","--with","pandas>=2.2.0","--with","numpy>=2.0.0","--with","requests>=2.32.0","--with","yfinance>=0.2.54","--with","pyyaml>=6.0.0","server.py"]
     }
   }
 }
